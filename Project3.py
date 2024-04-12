@@ -37,8 +37,8 @@ query2 = solver.query(variables=['B'])
 query3 = solver.query(variables=['C'], evidence={'A': 1, 'B': 0}) # A is Fair, B is Negative
 query4 = solver.query(variables=['D'], evidence={'C': 0}) # C is Not Treated
 query5 = solver.query(variables=['D'])
-query7 = cpd_D
 query6 = cpd_C
+query7 = cpd_D
 query8= cpd_D2
 
 # Prints the Queries out to the terminal, so that they may be viewed.
